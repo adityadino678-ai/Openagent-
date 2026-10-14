@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer hexagon frame -->
+    <path
+        android:pathData="M54,26 L76,38.7 L76,64.3 L54,77 L32,64.3 L32,38.7 Z"
+        android:strokeWidth="3.2"
+        android:strokeColor="#58A6FF"
+        android:fillColor="#152232" />
+
+    <!-- Neural connection nodes -->
+    <path
+        android:pathData="M54,26 A2.5,2.5 0 1,0 54,26.01
+                         M76,38.7 A2.5,2.5 0 1,0 76,38.71
+                         M76,64.3 A2.5,2.5 0 1,0 76,64.31
+                         M54,77 A2.5,2.5 0 1,0 54,77.01
+                         M32,64.3 A2.5,2.5 0 1,0 32,64.31
+                         M32,38.7 A2.5,2.5 0 1,0 32,38.71"
+        android:fillColor="#2EA043" />
+
+    <!-- Terminal Prompt Chevron '>' -->
+    <path
+        android:pathData="M43,45 L49.5,51.5 L43,58"
+        android:strokeWidth="3.4"
+        android:strokeColor="#38D39F"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <!-- Terminal Cursor '_' -->
+    <path
+        android:pathData="M53,58 L63,58"
+        android:strokeWidth="3.4"
+        android:strokeColor="#58A6FF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+</vector>

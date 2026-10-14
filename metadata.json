@@ -1,0 +1,6 @@
+{
+  "name": "OpenAgent",
+  "description": "Minimalist AI agent with multi-provider API keys, device automation skills, encrypted storage, and background voice control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
